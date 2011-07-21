@@ -1,0 +1,12 @@
+name: PluginLister
+version: 0.1
+author: Trc202
+main: me.trc202.PluginLister.PluginLister
+commands:
+  PlugList:
+    description: ListPlugins
+    aliases: PluginLister
+    usage: |
+           Incorrect usage of /<command>. Examples:
+           /<command> log - Prints plugin list to console
+           /<command> - Updates plugin list
